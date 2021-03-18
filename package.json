@@ -2,7 +2,7 @@
   "name": "bar",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sashasobchuk.github.io/mern-client--page/",
+  "homepage": "https://sashasobchuk.github.io/mern-client--page",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
