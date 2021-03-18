@@ -1,0 +1,62 @@
+/* #a7a058*/
+.file {
+  transition-duration: 0.01s;
+  margin: 10px 0;
+  border-bottom: solid 2px #2e2e1e;
+  display: grid;
+  grid-template-columns: 1fr 4fr repeat(4, 1fr);
+  align-items: center;
+}
+.file__name {
+  justify-self: start;
+  grid-column-start: 2;
+}
+.file__date {
+  grid-column-start: 5;
+  justify-self: center;
+}
+.file__size {
+  grid-column-start: 6;
+  justify-self: center;
+}
+.file__btn {
+  display: none;
+}
+.file:hover .file__date {
+  grid-column-start: 3;
+}
+.file:hover .file__size {
+  grid-column-start: 4;
+}
+.file:hover .file__download {
+  display: block;
+  grid-column-start: 5;
+}
+.file:hover .file__delete {
+  display: block;
+  grid-column-start: 6;
+}
+.file:hover {
+  transform: scale(0.99);
+  transition-duration: 0.01s;
+}
+.file-plate {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+.file-plate__img {
+  height: 100px;
+  width: 100px;
+}
+.file-plate__btn {
+  display: none;
+}
+.file-plate:hover .file-plate__btn {
+  display: flex;
+}
+/*# sourceMappingURL=file.css.map */
