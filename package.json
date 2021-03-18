@@ -3,10 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://sashasobchuk.github.io/mern-client--page/",
-  "engines": {
-    "node": "v15.x",
-    "npm": "7.5.x"
-  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
